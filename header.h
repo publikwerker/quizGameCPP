@@ -19,6 +19,7 @@ class question {
 		int addQuestion(char * & qIn, bool aIn);
 		int display();
 		int loadQA(char ques[], bool answ);
+		bool checker(char input[]);
 	private:
 		char * q;
 		bool a;
